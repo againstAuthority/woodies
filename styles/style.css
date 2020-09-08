@@ -196,50 +196,50 @@
   margin-left: 100px;
 }
 
-.about-us__statement-right {
+.about-us__statement {
+  font-size: 36px;
+  line-height: 49px;
+}
+
+.about-us__statement_right {
   position: absolute;
   width: 448px;
-  line-height: 56px;
   right: 100px;
   top: 144px;
   font-weight: normal;
-  font-size: 36px;
   color: #3E3F43;
 }
 
-.about-us__statement-left {
+.about-us__statement_left {
   position: absolute;
   width: 648px;
-  line-height: 49px;
   left: 0;
   top: 555px;
   font-weight: 600;
-  font-size: 36px;
-  line-height: 49px;
   color: #000000;
 }
 
-.about-us__text-right {
+.about-us__paragraph {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.about-us__paragraph_right {
   position: absolute;
   width: 448px;
-  line-height: 33px;
-  right: 100px;
   top: 258px;
-  font-weight: 600;
+  right: 100px;
   font-size: 24px;
   color: #000000;
 }
 
-.about-us__text-left {
+.about-us__paragraph_left {
   position: absolute;
   width: 648px;
-  line-height: 66px;
-  left: 0;
   top: 620px;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 33px;
-  color: #000000;
+  left: 0;
 }
 
 .about-us__rectangle {
