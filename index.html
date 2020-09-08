@@ -1,173 +1,181 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/style.css">
-  <title>Научиться учиться</title>
+  <title>Woodies</title>
 </head>
 
 <body>
   <div class="page">
 
     <header class="header">
-      <img class="logo logo_place_header" src="images/logo_place_header.svg" alt="Лого заголовка">
-      <h1 class="header__title">Научиться учиться</h1>
-      <div class="header__square-pic"></div>
-      <img class="header__main-illustration" src="images/header-image.png" alt="Изображение заголовка">
-      <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a href="#" class="header__link">Узнать &rarr;</a>
-      </p>
+      <img class="logo logo_place_header" src="images/woodies-logo.png" alt="Header logo">
+      <nav class="menu">
+        <a href="#" class="menu__link menu__link_active">Home</a>
+        <a href="#" class="menu__link">About Us</a>
+        <a href="#" class="menu__link">How it works</a>
+        <a href="#" class="menu__link">Categories</a>
+      </nav>
+      <h1 class="header__title">Are you looking for
+        <span class="table__heading_w_bold"> woodden furniture </span>for your place?</h1>
+      <h2 class="header__subtitle">This is the Right Place</h2>
+      <button class="header__button">Explore Furniture</button>
+      <div class="header__main-image"></div>
+      <div class="header__rectangle"></div>
     </header>
 
     <main class="content">
-      <section class="description">
-          <article class="two-columns">
-            <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
-            <div class="two-columns__main-text">
-                <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
-                      Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи,
-                        чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания.
-                        Зубрежка быстро выветривается и не приносит пользы.
-                      </p>
-                <p class="two-columns__paragraph">
-                  <span class="two-columns__space-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то
-                     этому мало где учат. Что с этим делать?
-                </p>
-                <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению,
-                      сделать его эффективным и захватывающим.
-                        Эти же техники применяются на примере обучения в Практикуме.
-                </p>
+
+      <section class="about-us">
+        <div class="block-titles">
+          <h2 class="block-titles_main-title">Who we are</h2>
+          <h3 class="block-titles_subtitle">About us</h3>
+        </div> 
+        <div class="table">
+          <div class="table__cell">
+           <div class="about-us__rectangle"></div>
+            <div class="about-us__salad-bowl"></div>
+            <div class="table__heading_w">
+              <span class="table__heading_w_bold">WOODIES</span> is the <span class="table__heading_w_bold">home of 
+                modern wooden furniture</span>
             </div>
-        </article>
+            <div class="table__text_w">the answer to your need for furniture with shapes, sizes and colors.</div>
+          </div>
+          <div class="table__cell">
+            <div class="table__heading_c">Customized furniture 
+              <span class="table__heading_w_bold">made just for you</span>
+            </div>
+            <div class="table__text_c">Get it easy to adjust furniture to the shape and size of your dwelling or business.</div>
+            <div class="about-us__spoon"></div>
+          </div> 
+        </div>
       </section>
 
-      <section class="digits">
-          <h2 class="section-title">Цифры и факты</h2>
-          <p class="section-subtitle">Про учёбу и мозг</p>
-          <ul class="table">
-            <li class="table__cell">
-              <h3 class="table__heading">86 миллиардов</h3>
-              <p class="table__text">Число нейронов в мозге человека</p>
-            </li>
-            <li class="table__cell">
-              <h3 class="table__heading">2.1 миллиарда</h3>
-              <p class="table__text">Число нуждающихся в повышении квалификации</p>
-              <p class="table__text">Всемирный Банк, 2017</p>
-            </li>
-            <li class="table__cell">
-              <h3 class="table__heading">1000 терабайт</h3>
-              <p class="table__text">Объём памяти человека</p>
-            </li>
-            <li class="table__cell">
-              <h3 class="table__heading">500 триллионов</h3>
-              <p class="table__text">Число ответственных за обучение нервных синапсов у взрослого человека</p>
-            </li>
-            <li class="table__cell">
-              <h3 class="table__heading">420 миллионов</h3>
-              <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
-              <p class="table__text">Всемирный Банк, 2017</p>
-            </li>
-            <li class="table__cell">
-              <h3 class="table__heading">17–20 лет</h3>
-              <p class="table__text">Пик обучаемости</p>
-            </li>
-            <li class="table__cell">
-              <h3 class="table__heading">1885 год</h3>
-              <p class="table__text">Открытие кривой забывания</p>
-            </li>
-            <li class="table__cell">
-              <h3 class="table__heading">1889 год</h3>
-              <p class="table__text">Открытие условного рефлекса</p>
-            </li>
-          </ul>
+      <section class="how-it-works">
+        <div class="block-titles">
+          <div class="block-titles_main-title">How to custom</div>
+          <div class="block-titles_subtitle">How it works</div>
+        </div>
+          <div class="how-it-works-table">
+            <div class="how-it-works-table__cell ">
+              <div class="how-it-works-table__heading">
+                <div class="how-it-works-table__heading_text">1</div>
+                <img class="how-it-works-table__heading_image" src="images/how-it-works/shop.png" alt="Choose design">
+              </div>
+              <div class="how-it-works-table__text">Choose design</div>
+            </div>
+            <div class="how-it-works-table__cell">
+              <div class="how-it-works-table__heading">
+                <div class="how-it-works-table__heading_text">2</div>
+                <img class="how-it-works-table__heading_image" src="images/how-it-works/ruler.svg" alt="Area measuring">
+              </div>
+              <div class="how-it-works-table__text">Area measuring</div>
+            </div>
+            <div class="how-it-works-table__cell">
+              <div class="how-it-works-table__heading">
+                <div class="how-it-works-table__heading_text">3</div>
+                <img class="how-it-works-table__heading_image" src="images/how-it-works/cost.png" alt="Budgeting">
+              </div>
+              <div class="how-it-works-table__text">Budgeting</div>
+            </div>
+            <div class="how-it-works-table__cell">
+              <div class="how-it-works-table__heading">
+                <div class="how-it-works-table__heading_text">4</div>
+                <img class="how-it-works-table__heading_image" src="images/how-it-works/carpenter.png" alt="Production">
+              </div>
+              <div class="how-it-works-table__text">Production</div>
+            </div>
+          </div>
+          <button class="how-it-works__button">Get Personalized Now</button>
       </section>
 
-      <section class="feynman">
-          <h2 class="feynman__title">Метод Фейнмана</h2>
-          <p class="feynman__subtitle">Выучить и не забыть.</p>
-          <a href="#" class="feynman__link">Подробнее &rarr;</a>
-      </section>
+      <section class="categories">
+        <div class="block-titles">
+          <div class="block-titles_main-title">What we have</div>
+          <div class="block-titles_subtitle">Categories</div>
+        </div>
 
-      <section class="kaufman">
-          <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-          <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
-          <ul class="table">
-            <li class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">1</h3>
-              <p class="table__text table__text_theme_dark ">Выберите привлекательный проект.</p>
-            </li>
-            <li class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">2</h3>
-              <p  class="table__text table__text_theme_dark ">Сосредоточьтесь на каком-то одном навыке.</p>
-            </li>
-            <li class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">3</h3>
-              <p  class="table__text table__text_theme_dark ">Определите целевой уровень мастерства.</p>
-            </li>
-            <li class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">4</h3>
-              <p class="table__text table__text_theme_dark ">Разбейте навык на элементы.</p>
-            </li>
-            <li class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">5</h3>
-              <p class="table__text table__text_theme_dark ">Приготовьте всё необходимое для занятий.</p>
-            </li>
-            <li class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">6</h3>
-              <p class="table__text table__text_theme_dark ">Устраните препятствия для занятий.</p>
-            </li>
-            <li class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">7</h3>
-              <p class="table__text table__text_theme_dark ">Выделите специальное время для занятий.</p>
-            </li>
-            <li class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">8</h3>
-              <p class="table__text table__text_theme_dark ">Cоздайте быстрые петли обратной связи.</p>
-            </li>
-            <li class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">9</h3>
-              <p class="table__text table__text_theme_dark ">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
-            </li>
-            <li class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">10</h3>
-              <p class="table__text table__text_theme_dark ">Уделяйте внимание количеству и скорости.</p>
-            </li>
-          </ul>
-        <div class="kaufman__triangle"></div>
+        <div class="categories-table">
+          <div class="categories-table__cell categories-table__cell_theme_pink">
+              <div class="categories-table__heading_text">Desk</div>
+              <img class="categories-table__heading_image" src="images/categories/desk.png" alt="Desk">
+              <!--Непонятно, почему не работае categories__button:hover-->
+              <button class="categories__button categories__button_theme_pink">Shop Now</button>
+          </div>
+          <div class="categories-table__cell categories-table__cell_theme_buttermilk">
+              <div class="categories-table__heading_text">Chair</div>
+              <img class="categories-table__heading_image" src="images/categories/chair.png" alt="Chair">
+              <button class="categories__button categories__button_theme_buttermilk">Shop Now</button>
+          </div>
+          <div class="categories-table__cell categories-table__cell_theme_blue">
+              <div class="categories-table__heading_text">Kitchenware</div>
+              <img class="categories-table__heading_image" src="images/categories/plates.png" alt="Kitchenware">
+              <button class="categories__button categories__button_theme_blue">Shop Now</button>
+          </div>
+          <div class="categories-table__cell categories-table__cell_theme_pink">
+              <div class="categories-table__heading_text">Book Shelf</div>
+              <img class="categories-table__heading_image" src="images/categories/book_shelf.png" alt="Book Shelf">
+              <button class="categories__button categories__button_theme_pink">Shop Now</button>
+          </div>
+          <div class="categories-table__cell categories-table__cell_theme_buttermilk">
+              <div class="categories-table__heading_text">Electronics</div>
+              <img class="categories-table__heading_image" src="images/categories/electronics.png" alt="Electronics">
+              <button class="categories__button categories__button_theme_buttermilk">Shop Now</button>
+          </div>
+        </div>
+
       </section>
     </main>
 
     <footer class="footer">
-      <div class="footer__columns">
-        <div class="footer__column footer__column_content_copyright">
-          <img class="logo logo_place_footer" src="images/logo_place_footer.svg" alt="Нижний логотип">
-          <p class="footer__author">&copy;2020. Дмитрий Кротенко</p>
+      <hr class="footer__line"></hr>
+      <div class="footer__background"></div>
+       <div class="footer__columns">
+        <div class="footer__column">
+          <img class="logo" src="images/woodies-logo.png" alt="Нижний логотип">
+          <li class="footer__info">(012)&nbsp;8967453</li>
+          <li class="footer__info">test@email.com</li>
+          <li class="footer__info">Test Address</li>
         </div>
-        <nav class="footer__column footer__column_content_info">
-          <h2 class="footer__column-heading">О Практикуме</h2>
+        <nav class="footer__column footer__column_links">
+          <h2 class="footer__column-heading">Product</h2>
           <ul class="footer__column-links">
-            <li class="footer__link"><a href="#" class="footer__link">Главная</a></li>
-            <li class="footer__link"><a href="#" class="footer__link">Концепция</a></li>
-            <li class="footer__link"><a href="#" class="footer__link">Наставники</a></li>
+            <li class="footer__link"><a href="#" class="footer__link">Furnitures</a></li>
+            <li class="footer__link"><a href="#" class="footer__link">Packages</a></li>
+            <li class="footer__link"><a href="#" class="footer__link">Services</a></li>
           </ul>
         </nav>
-        <nav class="footer__column footer__column_content_social">
-          <h2 class="footer__column-heading">Соцсети</h2>
+        <nav class="footer__column footer__column_links">
+          <h2 class="footer__column-heading">Resources</h2>
           <ul class="footer__column-links">
-            <li class="footer__link">
-              <a href="#" class="footer__link"><img class="footer__social-icon" src="images/facebook_color_white.svg" alt="Иконка Фейсбук">Facebook</a>
-            </li>
-            <li class="footer__link">
-              <a href="#" class="footer__link"><img class="footer__social-icon" src="images/vk_color_white.svg" alt="Иконка Вконтакте">ВКонтакте</a>
-            </li>
-            <li class="footer__link">
-              <a href="#" class="footer__link"><img class="footer__social-icon" src="images/instagram_color_white.svg" alt="Икона Инстаграм">Instagram</a>
-            </li>
+            <li class="footer__link"><a href="#" class="footer__link">Blog</a></li>
+            <li class="footer__link"><a href="#" class="footer__link">FAQs</a></li>
+            <li class="footer__link"><a href="#" class="footer__link">Contact Us</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__column footer__column_links">
+          <h2 class="footer__column-heading">Company</h2>
+          <ul class="footer__column-links">
+            <li class="footer__link"><a href="#" class="footer__link">About Us</a></li>
+            <li class="footer__link"><a href="#" class="footer__link">Jobs</a></li>
+            <li class="footer__link"><a href="#" class="footer__link">Our Team</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__column footer__column_links">
+          <h2 class="footer__column-heading">Follow Us</h2>
+          <ul class="footer__column-links">
+            <li class="footer__link"><a href="#" class="footer__link">Facebook</a></li>
+            <li class="footer__link"><a href="#" class="footer__link">Instagram</a></li>
+            <li class="footer__link"><a href="#" class="footer__link">Twitter</a></li>
           </ul>
         </nav>
       </div>
+      <div class="footer__main_image"></div>
+      <div class="footer__copyright">&copy;2020 WOODIES</div>>
     </footer>
 
   </div>
