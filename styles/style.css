@@ -160,8 +160,6 @@
 }
 
 .menu__link {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 22px;
   text-decoration: none;
@@ -170,7 +168,6 @@
 
 .menu__link_active {
   width: 45px;
-  font-style: normal;
   font-weight: 800;
   font-size: 16px;
   line-height: 22px;
@@ -197,8 +194,8 @@
   position: absolute;
   width: 370px;
   height: 800px;
-  left: 782px;
-  top: 0px;
+  right: 0;
+  top: 0;
   background-color: #f9bdbd;
   border-radius: 0 0 0 100px; 
   z-index: -1;
