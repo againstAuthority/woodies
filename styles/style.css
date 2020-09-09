@@ -12,6 +12,8 @@
   height: 33px;
 }
 
+/* Titles-section */
+
 .section-titles {
   display: flex;
   flex-direction: row;
@@ -39,6 +41,8 @@
   text-align: right;
   color: rgba(34, 34, 34, 0.1);
 }
+
+/* Buttons */
 
 .button_large {
   background: #DAA520;
@@ -86,7 +90,6 @@
 .button_small_theme_buttermilk {
   background: #f7Dea6;
 }
-
 
 .text_bold {
   font-weight: bold;
