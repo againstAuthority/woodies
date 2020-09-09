@@ -69,10 +69,10 @@
   border: 1px solid #3e3f43;
 }
 
-.button_small:hover {
+.button_small:hover{
   cursor: pointer;
-  border-color: #3e3f43;
-  background: #3e3f43;
+  font-weight: bold;
+  border: 2px solid #3e3f43;
 }
 
 .button_small_theme_pink {
@@ -86,6 +86,7 @@
 .button_small_theme_buttermilk {
   background: #f7Dea6;
 }
+
 
 .text_bold {
   font-weight: bold;
@@ -388,7 +389,6 @@
   justify-content: space-around;
   min-height: 400px;
   border-radius: 0 100px 0 100px; 
-  z-index: -1;
   margin-right: 30px;
   margin-bottom: 30px;
   width: 280px;
